@@ -1,0 +1,9 @@
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.section-one-text, .section-one-btn {
+    align-items: start;
+}

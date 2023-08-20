@@ -2,16 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
     margin: 0 2em;
 }
 
-.logo {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 2.5em;
-    color: var(--very-dark-blue);
-}
-
-.menu-icons {   
+.menu-icons { 
+    display: flex;  
     cursor: pointer;
 }
 
@@ -49,4 +45,28 @@
     text-decoration: none;
     color: var(--very-dark-blue);
     font-weight: 500;
+}
+
+@media (min-width: 700px) {
+    .header {
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu-icons {
+        display: none;
+    }
+
+    .menu-list-active {
+        display: none;
+    }
+
+    .menu-list {
+        position: relative;
+        display: flex;
+        gap: 2em;
+        transform: translate(0);
+        transition: none;
+    }
 }

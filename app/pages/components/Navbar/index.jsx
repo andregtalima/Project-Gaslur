@@ -13,11 +13,11 @@ const Navbar = () => {
     ]
     const [open, setOpen] = useState(false)
     return (
-        <header>
+        <header className='header'>
             <div className='menu'>
-                <h1 className='logo'>W.</h1>
+                <img src="/image/logo.svg" alt="logo da Gaslur" />
             <div onClick={() => setOpen(!open)} className='menu-icons'>
-                {open ? <IconX size={40}/> : <IconMenu2 size={40}/>}
+                {open ? <IconX size={50}/> : <IconMenu2 size={50}/>}
             </div>
             </div>
             <nav>

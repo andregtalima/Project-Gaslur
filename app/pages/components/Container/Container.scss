@@ -1,9 +1,17 @@
 .section-one {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
-.section-one-text, .section-one-btn {
-    align-items: start;
+
+.section-one-txt {
+    width: 65vh;
+    text-align: start;
+}
+
+.sectio-one-btn {
+    display: flex;
+    justify-content: center;
 }

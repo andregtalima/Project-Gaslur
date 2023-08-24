@@ -4,13 +4,16 @@ const Container = () => {
     return (
         <section className='section-one'>
                 <div className='section-div'>
-                    <img src="./image/image-web-3-mobile.jpg" alt="First image" />
-                    <div className='div-txt'>
-                        <h1>The Bright Future of Web 3.0?</h1>
-                        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-                    </div>
-                    <div className='div-btn'>
-                        <button>Read More</button>
+                    <img className='img-mobile' src="./image/image-web-3-mobile.jpg" alt="First image" />
+                    <img className='img-desktop' src="./image/image-web-3-desktop.jpg" alt="First image" />
+                    <div className='div__txt-btn'>
+                        <div className='div-txt'>
+                            <h1>The Bright Future of Web 3.0?</h1>
+                            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                        </div>
+                        <div className='div-btn'>
+                            <button>Read More</button>
+                        </div>
                     </div>
                 </div>
                 <div className="section-div__two">                   

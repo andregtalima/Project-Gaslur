@@ -1,6 +1,7 @@
 .section-one {
    text-align: center;
    margin: 0 2em;
+   margin-bottom: 2em;
 }
 
 .section-div {
@@ -27,5 +28,35 @@
     color: var(--off-white);
     letter-spacing: 6px;
     font-weight: 700;
+    margin-bottom: 6em;
+}
+
+.section-div__two {
+    background-color: var(--very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 2em;
+}
+
+.section-div__two h2 {
+    font-size: 3em;
+    color: var(--sotf-orange);
+}
+
+.div-txt__two {
+    color: var(--off-white);
+    border-bottom: 1px solid var(--off-white);
+}
+
+.div-txt__two h3 {
+    font-size: 1.8em;
+    margin-top: 1.5em;
+}
+
+.div-txt__two p {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
 }
 

@@ -1,17 +1,31 @@
 .section-one {
+   text-align: center;
+   margin: 0 2em;
+}
+
+.section-div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: left;
 }
 
-
-.section-one-txt {
-    width: 65vh;
-    text-align: start;
+.div-txt h1 {
+    font-size: 3em;
+    color: var(--very-dark-blue);
 }
 
-.sectio-one-btn {
-    display: flex;
-    justify-content: center;
+.div-txt p {
+    font-size: 1.5em;
+    color: var(--dark-grayish-blue);
 }
+
+.div-btn button {
+    padding: 1em 3em;
+    background-color: var(--soft-red);
+    border: transparent;
+    text-transform: uppercase;
+    color: var(--off-white);
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+
